@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
               <ul className="flex space-x-4">
                 <li><Link href="/" className="hover:underline">Home</Link></li>
                 <li><Link href="/dashboard" className="hover:underline">Dashboard</Link></li>
-                <li><Link href="/history" className="hover:underline">Reward History</Link></li>
               </ul>
             </nav>
           </header>
